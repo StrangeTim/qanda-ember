@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Stacks</title>
+
+    <script src="libs/jquery-1.11.1.js"></script>
+    <script src="libs/ember-template-compiler-1.10.0.js"></script>
+    <script src="libs/ember-debug.js"></script>
+    <script src="libs/ember-handlebars-loader-0.0.2.js"></script>
+    <script src="libs/ember-data.js"></script>
+    <script src="libs/localstorage-adapter.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <!--  application files  -->
+    <script src="aQndA.js"></script>
+    <script src="router.js"></script>
+    <script src="store.js"></script>
+
+
+    <!-- controllers -->
+    <script src="controllers/all-questions.js"></script>
+    <script src="controllers/question.js"></script>
+    <script src="controllers/new-question.js"></script>
+    <script src="controllers/new-answer.js"></script>
+    <script src="controllers/contact.js"></script>
+
+
+    <!--  routes  -->
+    <script src="routes/all-questions.js"></script>
+    <script src="routes/question.js"></script>
+    <script src="routes/recent-answers.js"></script>
+
+
+    <!--  models  -->
+    <script src="models/question.js"></script>
+    <script src="models/answer.js"></script>
+
+    <!--  pages  -->
+    <script>
+      EmberHandlebarsLoader.loadTemplates([
+        'all-questions', 'new-question', 'question', 'new-answer',
+        'recent-answers', 'contact'
+      ]);
+    </script>
+
+  </head>
+  <body>
+
+  </body>
+</html>
