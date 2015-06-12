@@ -1,1 +1,1 @@
-QandA = Ember.application.create();
+Qanda = Ember.Application.create();

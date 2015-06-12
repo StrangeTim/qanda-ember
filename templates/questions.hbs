@@ -1,0 +1,13 @@
+<h1>Welcome to the Stacks</h1>
+<br>
+<h2>Got a {{#link-to 'new-question'}}question? {{/link-to}}</h2>
+<br>
+<br>
+<h3>Current Questions:</h3>
+<ul>
+  {{#each}}
+    <li>{{#link-to 'question' this.id}}{{blurb}}{{/link-to}}</li>
+  {{/each}}
+</ul>
+<br>
+<h3>^^ Share some knowledge above ^^</h3>

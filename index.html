@@ -10,27 +10,27 @@
     <script src="libs/ember-data.js"></script>
     <script src="libs/localstorage-adapter.js"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
 
     <!--  application files  -->
-    <script src="aQndA.js"></script>
+    <script src="qanda.js"></script>
     <script src="router.js"></script>
     <script src="store.js"></script>
 
 
     <!-- controllers -->
-    <script src="controllers/all-questions.js"></script>
+    <script src="controllers/contact.js"></script>
     <script src="controllers/question.js"></script>
+    <script src="controllers/questions.js"></script>
     <script src="controllers/new-question.js"></script>
     <script src="controllers/new-answer.js"></script>
-    <script src="controllers/contact.js"></script>
 
 
     <!--  routes  -->
-    <script src="routes/all-questions.js"></script>
+    <script src="routes/questions.js"></script>
     <script src="routes/question.js"></script>
     <script src="routes/recent-answers.js"></script>
 
@@ -42,8 +42,8 @@
     <!--  pages  -->
     <script>
       EmberHandlebarsLoader.loadTemplates([
-        'all-questions', 'new-question', 'question', 'new-answer',
-        'recent-answers', 'contact'
+        'questions', 'new-question', 'question', 'new-answer',
+        'recent-answers', 'contact', 'application'
       ]);
     </script>
 

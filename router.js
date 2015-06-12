@@ -1,6 +1,6 @@
-QandA.Router.map(function () {
-  this.resource('all-questions', {path: '/'});
-  this.resource('question', {path: 'all-question/:question_id'}, function() {
+Qanda.Router.map(function () {
+  this.resource('questions', {path: '/'});
+  this.resource('question', {path: 'questions/:question_id'}, function() {
     this.resource('new-answer');
   });
   this.resource('new-question');
